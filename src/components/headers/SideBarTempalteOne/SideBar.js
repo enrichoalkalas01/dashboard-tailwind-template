@@ -5,11 +5,12 @@ import BottomMenuSideBar from "./components/BottomMenuSideBar"
 import { useState } from "react"
 
 export default function SideBar() {
-    const [sideBarMobile, setSideBarMobile] = useState(true)
+    const [sideBarMobile, setSideBarMobile] = useState(false)
     return(
         <>
+            
             {/* Desktop Sidebar */}
-            <div className="hidden md:w-80 max-w-xxs md:block navbar-menu h-screen relative z-50">
+            <div className="hidden lg:w-80 max-w-xxs lg:block navbar-menu h-screen relative z-50">
                 <nav className="relative top-0 left-0 bottom-0 w-80 max-w-xxs flex flex-col h-full py-6 px-4 bg-gray-700 overflow-auto">
                     <div className="mb-6">
                         <div>
