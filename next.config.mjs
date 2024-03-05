@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: [], // Tidak ada domain yang terdaftar untuk optimasi
+    },
+};
 
 export default nextConfig;
