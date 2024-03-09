@@ -8,6 +8,7 @@ export default function LayoutDashboardOne({ children }) {
                 <title>Dashboard One</title>
                 <meta name="description" content="test" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
             </Head>
             <section className="bg-dash-1 h-screen w-full">
                 {children}

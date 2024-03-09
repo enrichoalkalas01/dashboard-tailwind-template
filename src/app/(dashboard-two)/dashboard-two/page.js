@@ -1,13 +1,22 @@
-import SideBar from "@/components/headers/SideBarTemplateTwo/SideBar"
+import SideBar2 from "@/components/headers/SideBarTemplateTwo/SideBar2"
+import Table from "@/components/tables/TableTemplateTwo/Table"
+import AreaChartOne from "@/components/charts/AreaChartOne"
 
 export default function Page() {
     return(
         <>
             <section className="flex">
                 <div>
-                    <SideBar />
+                    <SideBar2 />
                 </div>
-                <span className="text-dash-5 font-semibold">4asdasda sdas</span>
+                <div className="w-full">
+                    <div className="w-full">
+                        <Table />
+                    </div>
+                    <div className="w-full">
+                        <AreaChartOne />
+                    </div>
+                </div>
             </section>
         </>
     )
